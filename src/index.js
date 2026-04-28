@@ -13,6 +13,7 @@ const routes = require("./routes/chatRoutes");
 app.use('/api',routes);
 
 
-app.listen(process.env.PORT,()=>{
-    console.log("server started",process.env.PORT);
-})
+//app.listen(process.env.PORT,()=>{
+  //  console.log("server started",process.env.PORT);
+//})
+module.exports = app;
